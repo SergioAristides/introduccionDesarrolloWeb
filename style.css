@@ -1,0 +1,93 @@
+
+p{
+    color:red
+}
+
+h1{
+    color:blue
+}
+
+/*!important no le importe lo que este de ahi abajo*/
+/*id prevalese ante todos la clase y lo selectores normales
+son en casacada*/
+#ultimoP{
+    color:green;
+    background-color: rgb(123,23,1);
+}
+
+.texto{
+    /*tamaño d ela fuente*/
+    font-size: x-large;
+    /*ancha o mas delgada*/
+    font-weight: 900;
+    /*stylo de la fuente*/
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.imagenPequena{
+    height: 150px;
+
+}
+.angosto{
+    width : 350px;
+    height: 500px;
+}
+
+/*arriba, derecha, abajo, izquierda*/
+.contenedorConMargen{
+    margin:20px 20px 20px 20px;
+    /*
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    */
+    border:1px solid red;
+    /*el pading se utiliza para separar los elementos de un contenedor
+    al cual ya se le realizo una margen*/
+    padding: 10px;
+    /*naranjado pading verde margin*/
+}
+
+.divTest{
+    border: 1px solid red;
+}
+.contenedorDivs{
+    border: 2px solid rgb(0, 255, 0);
+    /*lo uso para poder usar propiedades flexibilidad de mi pagina*/
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 30% 30% 40%;
+    margin: 10px;
+}
+.containerFlex{
+    border: 2px solid blue;
+    /*por defecto el diplay flex ordena todos de manera vertical*/
+    display: flex;
+    /*modificar el flex 
+    flex-direction: column;
+    flex-direction: column-reverse;
+    */
+    height: 500px;
+    /*centrar los div de manera horizontal*/
+    justify-content: center;
+    /*al centro a nivel vertical*/
+    align-items: center;
+    /*espacio entre elementos*/
+    justify-content: space-between;
+    /*espacio engtre elementos pero deja espacios
+     entre izquierda y derecha*/
+     justify-content: space-around;
+
+     /*tira todos los divs abajo */
+     align-items: flex-end;
+     /*tira todos los divs arriba*/
+     align-items: flex-start;
+     margin:10px;
+     padding: 10px;
+    
+
+}

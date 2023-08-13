@@ -17,3 +17,20 @@ ul{
 .logo{
     height: 70px;
 }
+.mainButton{
+    background-color: aquamarine;
+    color: white;
+    border: 0px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+/*modificadores
+en este caso cambiamos la flecha
+a una manito y hay sombra cuando nos acercamos 
+a este*/
+.mainButton:hover{
+cursor: pointer;
+box-shadow:2px 2px green;
+transform: scale(1.1);
+}

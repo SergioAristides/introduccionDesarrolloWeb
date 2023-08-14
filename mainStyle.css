@@ -43,3 +43,16 @@ a este*/
     background-color: rgb(0, 244, 33);
     color: white;
 }
+.search{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 4px;
+}
+.search > input {
+    outline: none;
+    border: 0px;
+}
+.search:focus-within{
+    border: 1px solid green;
+}

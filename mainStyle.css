@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbar{
+    /*por defecto vertical*/
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    height: 70px;
+}
+
+.button{
+    border: 0px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    font-weight: bolder;
+
+}
+.button:hover{
+    /*modificadores
+en este caso cambiamos la flecha
+a una manito y hay sombra cuando nos acercamos 
+a este*/
+    cursor: pointer;
+    box-shadow:2px 2px green;
+    transform: scale(1.1);
+
+}
+.mainButton{
+    background-color: aquamarine;
+    color: white;
+}
+.mainButtonSecondary{
+    background-color: rgb(0, 244, 33);
+    color: white;
+}
+.search{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 4px;
+}
+.search > input {
+    outline: none;
+    border: 0px;
+}
+.search:focus-within{
+    border: 1px solid green;
+}

@@ -34,3 +34,20 @@ cursor: pointer;
 box-shadow:2px 2px green;
 transform: scale(1.1);
 }
+.mainButtonSecondary{
+    background-color: rgb(0, 244, 33);
+    color: white;
+    border: 0px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+/*modificadores
+en este caso cambiamos la flecha
+a una manito y hay sombra cuando nos acercamos 
+a este*/
+.mainButtonSecondary:hover{
+cursor: pointer;
+box-shadow:2px 2px rgb(128, 0, 0);
+transform: scale(1.1);
+}

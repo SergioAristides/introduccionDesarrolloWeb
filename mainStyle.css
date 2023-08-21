@@ -13,6 +13,9 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(220, 220, 220);
+    border-bottom:1px solid gray ;
+    box-shadow: 1px 1px grey;
 }
 .logo{
     height: 70px;
@@ -43,16 +46,28 @@ a este*/
     background-color: rgb(0, 244, 33);
     color: white;
 }
+.search:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
 .search{
     background-color: white;
     border: 1px solid gray;
     padding: 2px;
     border-radius: 4px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
+/*cualquier input que este debajo de la clase buscar se le agregara */
 .search > input {
     outline: none;
     border: 0px;
 }
 .search:focus-within{
     border: 1px solid green;
+}
+.navbar > li {
+    display: flex;
+    align-items: center;
 }
